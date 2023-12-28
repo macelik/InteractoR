@@ -1,0 +1,22 @@
+Package: InteractoR
+Title: Building Ligand-Receptor Database in R
+Version: 1.0.0
+Authors@R: 
+    person("Maria", "Solovey", , "maria.solovey@bmc.med.lmu.de", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Community is an R package for analyzing single-cell RNA sequencing data to infer interactions between cell types. The package includes functions for preprocessing and quality control, as well as functions for inferring interactions and for analyzing the inferred interactions.
+License: MIT + file LICENSE
+BugReports: https://github.com/SoloveyMaria/community/issues
+Depends: 
+    R (>= 4.0.0)
+biocViews:
+Imports:
+    stringr (>= 1.4.0),
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+#RoxygenNote: 7.2.1
+Suggests:
+    roxygen2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.1
